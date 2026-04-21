@@ -12,13 +12,13 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
+              I'm a Software Engineer who loves transforming ideas into
+              reliable, scalable products. Over time, I've explored several
               technologies and found my passion in building high-performance
               systems and intuitive user experiences.
               <br />
               <br />
-              I’m proficient in
+              I'm proficient in
               <i>
                 <b className="purple">
                   {" "}
