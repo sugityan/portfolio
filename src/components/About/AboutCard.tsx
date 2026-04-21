@@ -1,4 +1,3 @@
-import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
 
@@ -8,10 +7,10 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi everyone! I’m <span className="purple">Kota Sugiyama</span>{" "}
+            Hi everyone! I'm <span className="purple">Kota Sugiyama</span>{" "}
             from <span className="purple">Tokyo, Japan</span>.
             <br />
-            I’m currently working as a{" "}
+            I'm currently working as a{" "}
             <span className="purple">Software Developer</span> at{" "}
             <span className="purple">Accenture</span>.
             <br />I hold an Integrated M.Sc. in{" "}
@@ -25,13 +24,13 @@ function AboutCard() {
 
           <ul>
             <li className="about-activity">
-              <ImPointRight /> AI Search 🤖
+              <ImPointRight /> AI Search
             </li>
             <li className="about-activity">
-              <ImPointRight /> Trading 💰
+              <ImPointRight /> Trading
             </li>
             <li className="about-activity">
-              <ImPointRight /> Traveling and Learning New Language 🌍
+              <ImPointRight /> Traveling and Learning New Language
             </li>
           </ul>
 

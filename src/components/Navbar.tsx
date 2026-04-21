@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
@@ -17,7 +17,7 @@ import {
 import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
-  const [expand, updateExpanded] = useState(false);
+  const [expand, updateExpanded] = useState<boolean | string>(false);
   const [navColour, updateNavbar] = useState(false);
 
   function scrollHandler() {
@@ -32,7 +32,7 @@ function NavBar() {
 
   return (
     <Navbar
-      expanded={expand}
+      expanded={expand as boolean | undefined}
       fixed="top"
       expand="md"
       className={navColour ? "sticky" : "navbar"}
