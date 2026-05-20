@@ -26,9 +26,9 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               isBlog={false}
-              title=""
-              description=""
-              ghLink="https://github.com/sugityan/manage_food_expensive"
+              title="playwright-slack-notification"
+              description="A npm package that integrates Playwright with Slack for automated notifications."
+              ghLink="https://github.com/sugityan/playwright-slack-notification"
             />
           </Col>
 
