@@ -41,3 +41,7 @@ When build or lint errors are caused by dependency/version incompatibility:
    - exact tradeoff of the config change
 6. For package upgrades/downgrades, propose the minimal compatible change first.
 7. Never change both dependency versions and lint/build config in one step without approval.
+
+## Agent Role Rules (MANDATORY)
+
+Each agent has a strictly defined role. **Never cross role boundaries.**
